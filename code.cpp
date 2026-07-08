@@ -1,10 +1,13 @@
-#include<iostream>
-#include<math.h>
-#include<string>
+#include <iostream>
+using namespace std;
 
-int main()
-{
-    std::cout <<   "Hello, World!" <<std::endl;
-    std::cout <<   "Samagra";
+int main() {
+    int a, b;
+    cin >> a >> b;
+
+    cout << "First Number: " << a << endl;
+    cout << "Second Number: " << b << endl;
+    cout << "Sum: " << a + b << endl;
+
     return 0;
 }
