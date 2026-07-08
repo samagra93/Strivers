@@ -1,3 +1,5 @@
-First Number: 11
-Second Number: 20
-Sum: 31
+Hey Striver!
+SAMAGRA
+Hey Striver!
+Value of X is: 10
+Value of Y is: 30

@@ -2,17 +2,21 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Run C++",
+            "label": "Run CPP",
             "type": "shell",
             "command": "cmd",
             "args": [
                 "/c",
-                "g++ -std=c++17 code.cpp -o code && code.exe < input.txt > output.txt"
+                "g++ -std=c++17 \"${file}\" -o \"${fileBasenameNoExtension}.exe\" && \"${fileBasenameNoExtension}.exe\" < input.txt > output.txt"
             ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
             "group": {
                 "kind": "build",
                 "isDefault": true
-            }
+            },
+            "problemMatcher": []
         }
     ]
 }
